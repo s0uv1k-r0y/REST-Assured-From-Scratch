@@ -1,0 +1,36 @@
+{
+  "id": 1,
+  "instructor": "Kakashi Sensei",
+  "email": "kakashisensei@naruto.com",
+  "url": "google.com",
+  "services": "projectSupport",
+  "expertise": "Automation",
+  "courses": {
+    "webAutomation": [
+      {
+        "courseTitle": "Selenium",
+        "price": 300
+      },
+      {
+        "courseTitle": "Cypress",
+        "price": 100
+      }
+    ],
+    "api": [
+      {
+        "courseTitle": "Rest API",
+        "price": 250
+      },
+      {
+        "courseTitle": "SOAP API̥",
+        "price": 150
+      }
+    ],
+    "mobile": [
+      {
+        "courseTitle": "Appium",
+        "price": 50
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "profiles": [
+    {
+      "id": 1,
+      "instructor": "Kakashi Sensei",
+      "email": "kakashisensei@naruto.com",
+      "url": "google.com",
+      "services": "projectSupport",
+      "expertise": "Automation",
+      "courses": {
+        "webAutomation": [
+          {
+            "courseTitle": "Selenium",
+            "price": 300
+          },
+          {
+            "courseTitle": "Cypress",
+            "price": 100
+          }
+        ],
+        "api": [
+          {
+            "courseTitle": "Rest API",
+            "price": 250
+          },
+          {
+            "courseTitle": "SOAP API̥",
+            "price": 150
+          }
+        ],
+        "mobile": [
+          {
+            "courseTitle": "Appium",
+            "price": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "instructor": "Itachi Uchiha",
+      "email": "itachiuchiha@naruto.com",
+      "url": "linkedin.com",
+      "services": "projectManagement",
+      "expertise": "Management",
+      "courses": {
+        "webAutomation": [
+          {
+            "courseTitle": "Cypress",
+            "price": 100
+          }
+        ],
+        "api": [
+          {
+            "courseTitle": "Rest API",
+            "price": 250
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "instructor": "Jiraya Sensei",
+      "email": "jirayasensei@naruto.com",
+      "url": "youtube.com",
+      "services": "projectDev",
+      "expertise": "Development and Testing",
+      "courses": {
+        "mobile": [
+          {
+            "courseTitle": "Appium",
+            "price": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "instructor": "Shiren Sensei",
+      "email": "shirensensei@naruto.com",
+      "url": "twitter.com",
+      "services": "projectDev",
+      "expertise": "Development",
+      "courses": {
+        "api": [
+          {
+            "courseTitle": "REST API̥",
+            "price": 150
+          }
+        ],
+        "mobile": [
+          {
+            "courseTitle": "Appium",
+            "price": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "url": "https://www.reddit.com",
+      "services": "Automation",
+      "expertise": "QA",
+      "instructor": "Grand Maestro",
+      "email": "grandmaster@gmail.com",
+      "courses": null
+    },
+    {
+      "id": 6,
+      "url": "https://www.google.com",
+      "services": "Automation",
+      "expertise": "QA",
+      "instructor": "Grand Maestro",
+      "email": "grandmaster@gmail.com",
+      "courses": {
+        "webAutomation": [
+          {
+            "courseTitle": "Selenium",
+            "price": "150"
+          }
+        ],
+        "api": [
+          {
+            "courseTitle": "REST API",
+            "price": "250"
+          }
+        ],
+        "mobile": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "John",
+  "phone_number": "(+91) 1234567890",
+  "website": "https://www.google.com",
+  "address": "68, Broadway Street, NY",
+  "location": {
+    "lat": -54.383494,
+    "lng": 45.427362
+  },
+  "accuracy": 50,
+  "types": ["shoe park", "shop"],
+  "language": "French-IN"
+}
