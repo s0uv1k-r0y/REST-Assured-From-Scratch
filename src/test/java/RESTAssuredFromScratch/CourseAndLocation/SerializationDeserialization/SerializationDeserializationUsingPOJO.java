@@ -52,8 +52,8 @@ public class SerializationDeserializationUsingPOJO {
         Response response = given().body(pojo_getProfileDataObj).header("Content-Type", "application/json")
                 .when().post("/profiles");
         System.out.println("****************************************************************");
-        System.out.println("Record Created Successfully");
         System.out.println(response.getStatusCode() + " - " + response.getStatusLine());
+        System.out.println("Record Created Successfully");
         System.out.println(response.asString());
         System.out.println("****************************************************************");
 
@@ -76,8 +76,8 @@ public class SerializationDeserializationUsingPOJO {
 //        Response response = given().pathParam("id", 7).delete("{id}");    //both works. use either one
         response = given().when().delete("{id}", id);
         System.out.println("****************************************************************");
-        System.out.println("Record Deleted Successfully");
         System.out.println(response.getStatusCode() + " - " + response.getStatusLine());
+        System.out.println("Record Deleted Successfully");
         System.out.println("****************************************************************");
     }
 
